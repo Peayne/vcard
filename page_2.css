@@ -1,0 +1,41 @@
+/* APPARITION OF THE BLOCK */
+
+.content {
+	opacity: 1;
+	z-index:1;
+}
+
+/* STYLE OF INFORMATION BLOCK */
+
+.content .col--right .information{
+	display:block;
+	padding-top:60px;
+	margin-left:-40px;
+}
+
+.content .informations li{
+	margin-bottom:5px;
+}
+
+/* STYLE OF SOCIAL BLOCK */
+
+.content .col--right .social{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	padding-right:80%;
+	padding-top:10%;
+	margin-left:-40px;
+}
+
+/* SPACE BETWEEN PICTURE AND THE BLOCK */
+
+.content main div{
+	padding-right:0;
+}
+
+/* LAST LINK */
+
+.content .col--right .information li:last-child{
+	margin-top:50px;
+}
